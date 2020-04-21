@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component, Link} from 'react';
 
-function App() {
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Route, Switch, BrowserRouter} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Researchers from './components/researches';
+import Eligibility from './components/eligibility';
+import Participation from './components/participation';
+import Overview from './components/overview';
+
+class App extends Component {
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter >
+    
+
+    <div className=' bg-color'>
+      <Navbar/>
+        <Switch>
+          <Route exact path="/" component={Overview}/>
+          <Route path="/eligibility" component={Eligibility}/>
+          <Route path="/participation" component={Participation}/>
+          <Route path="/researchers" component={Researchers}/>
+        </Switch>
+      
+      
     </div>
+    </BrowserRouter>
+    
+    
+    
   );
 }
-
+}
 export default App;

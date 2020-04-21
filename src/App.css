@@ -1,38 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Signika&display=swap');
+
+body{
+  background-color: #bac3d8;
+}
 .App {
-  text-align: center;
+  
+  background-color: #435d73 !important;
+}
+#navBar { 
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: row;
+}
+.nav-item:any-link{
+  text-decoration: none !important;
+  border-width: 3px;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item:hover{
+  color: #f57515 !important;
+}
+.bg-color{
+  background-color:#bac3d8 !important;
+}
+.font-color-sec{
+  font-size: 1.2em;
+  color: #f57515;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.border-thick{
+  border-bottom: 3px solid #Ebd967;
+  border-radius: .75em;
+  
+}
+.font-color-dark{
+  font-size: 1.1em;
+  color: #685972 !important;
+}
+.overview-btn{
+  background-color: #ebd967 !important;
+  border-color: #ebd967!important;
+  color: #435d73;
+
+  
+}
+.overview-btn:hover{
+  background-color: #f57515 !important;
+  border-color: #f57515 !important;
+  color: #f0ebf0 !important;
+}
+.round-border{
+
+  border: 30px solid  #Ebd967!important;
+}
+.participation-btn{
+  background-color: #f57515 !important;
+  border-color: #f57515 !important;
+}
+.participation-btn:hover{
+  background-color: #ebd967 !important;
+  border-color: #ebd967 !important;
+  color: #685972 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-signika{
+  font-family: 'Signika', sans-serif;
+}
+.font-mont{
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.make-white{
+  color: #F0EBF0;
+  border-color: #f57515;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.make-white:hover{
+  color: #f57515 !important;
 }
