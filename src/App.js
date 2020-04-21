@@ -12,7 +12,7 @@ import Overview from './components/overview';
 class App extends Component {
   render(){
   return (
-    <BrowserRouter >
+    <BrowserRouter basename={'covidparentingwork.github.io'} >
     
 
     <div className=' bg-color'>
