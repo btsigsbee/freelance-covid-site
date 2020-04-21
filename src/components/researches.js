@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {Row, Col,Image, Button, Figure} from 'react-bootstrap';
+import {Row, Col,Image} from 'react-bootstrap';
 import pic1 from '../Abigail Ocobock.jpg';
 import pic2 from '../Lindsay.jpg';
-import {FaEnvelope, FaPhone, FaTwitter} from 'react-icons/fa';
+import {FaEnvelope, FaTwitter} from 'react-icons/fa';
 class Researchers extends Component{
 
 

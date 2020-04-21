@@ -20,7 +20,7 @@ to be paid by check or gift card, and these will be mailed to you within 4 weeks
 the interview.
 <text className='font-color-sec font-weight-bold'> If both partners take part in the study, you will each receive $25.</text></p>
 
-<Button size='lg' className='font-mont btn-block participation-btn mb-6 font-weight-bold'>Eligibility Survey</Button>
+<Button size='lg' href='https://nd.qualtrics.com/jfe/form/SV_1zT002Tiaq6RNK5'className='font-mont btn-block participation-btn mb-6 font-weight-bold'>Eligibility Survey</Button>
 </Col><Col className='col-sm-6'><Image className='mt-4 fluid w-75' rounded src={pic}></Image></Col></Row>
             </div>
         );
