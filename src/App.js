@@ -18,10 +18,10 @@ class App extends Component {
     <div className=' bg-color'>
       <Navbar/>
         <Switch>
-          <Route exact path="/" component={Overview}/>
-          <Route path="/eligibility" component={Eligibility}/>
-          <Route path="/participation" component={Participation}/>
-          <Route path="/researchers" component={Researchers}/>
+          <Route exact path={process.env.PUBLIC_URL+"/"} component={Overview}/>
+          <Route path={process.env.PUBLIC_URL+"/eligibility"} component={Eligibility}/>
+          <Route path={process.env.PUBLIC_URL+ "/participation"} component={Participation}/>
+          <Route path={process.env.PUBLIC_URL+"/researchers"} component={Researchers}/>
         </Switch>
       
       
