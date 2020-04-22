@@ -15,7 +15,7 @@ render() {
                 <Image src={pic1} className= 'img-fluid' roundedCircle></Image>
                 <Row sm={4}className='d-flex justify-content-end' ><a href='mailto: aocobock@nd.edu'><FaEnvelope className='make-white' sm={2} size={32}/></a></Row>
                 </Col >
-                <Col><br/><text className='font-mont text-wrap h-25'><h4 className='font-signika font-color-sec h3 border-dark border-bottom'>Abigail Ocobock</h4>Abigail is the Principal Investigator of the study. She works as a Sociology Professor at
+                <Col><br/><text className='font-mont text-wrap h-25'><h4 className='font-signika font-color-sec size-up border-dark border-bottom'>Abigail Ocobock</h4>Abigail is the Principal Investigator of the study. She works as a Sociology Professor at
 the University of Notre Dame. She conducts research and teaches classes in the areas of family
 sociology, gender, and sexuality. Her work has been published in academic journals, such as the
 Journal of Marriage and Family, and covered in media venues, such as The Atlantic and Slate
@@ -28,7 +28,7 @@ the coronavirus! She is excited to hear about your experiences.</text><br/>
             </Row>
             <Row className='fluid'>
                 
-                <Col><br/><text className='font-mont text-wrap'><h4 className='font-signika text-right font-color-sec h3  border-dark border-bottom'>Lindsay Heldreth</h4>Lindsay Heldreth is a Graduate Student Research Assistant for the study. She is currently a Ph.D. student in the Department of Sociology at the University of Notre Dame. She is originally from Canfield, Ohio, and is a graduate of Youngstown State University, with a BA in Philosophy. Her current research focuses on gender and culture. She lives with her partner and their three cats: Pippa, Tabasco, and Meowgatron. In her spare time, she enjoys playing tennis, practicing piano, and hiking! She is excited to hear your stories and hopes they will offer some insight into how to succeed at work-life balance. 
+                <Col><br/><text className='font-mont text-wrap'><h4 className='font-signika text-right font-color-sec h3 size-up border-dark border-bottom'>Lindsay Heldreth</h4>Lindsay Heldreth is a Graduate Student Research Assistant for the study. She is currently a Ph.D. student in the Department of Sociology at the University of Notre Dame. She is originally from Canfield, Ohio, and is a graduate of Youngstown State University, with a BA in Philosophy. Her current research focuses on gender and culture. She lives with her partner and their three cats: Pippa, Tabasco, and Meowgatron. In her spare time, she enjoys playing tennis, practicing piano, and hiking! She is excited to hear your stories and hopes they will offer some insight into how to succeed at work-life balance. 
 </text>
 </Col>
 <Col className='col col-lg-3'>

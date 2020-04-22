@@ -6,7 +6,7 @@ class Eligibility extends Component {
     render(){
         return(
             <div className='container'>
-                <h1 className=' font-signika border-thick pb-1 text-center  font-color-sec h1'>Eligibility for COVID-19 Parenting and Work Study</h1>
+                <h1 className=' font-signika border-thick pb-1 text-center size-up font-color-sec h1'>Eligibility for COVID-19 Parenting and Work Study</h1>
                 <p className='text-center h4'>To be eligible, you must meet <text className='font-weight-bold'>ALL</text> of the following:</p>
 
                 <ul className='font-mont list-group w-75 mx-auto'>

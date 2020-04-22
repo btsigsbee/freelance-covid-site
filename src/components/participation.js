@@ -6,7 +6,7 @@ class Participation extends Component {
     render(){
         return(
             <div className='container h-100'>
-               <h1 className=' font-signika border-thick pb-1 text-center  font-color-sec h1'>Participating in the COVID-19 Parenting and Work Study</h1>
+               <h1 className=' font-signika border-thick pb-1 text-center size-up font-color-sec h1'>Participating in the COVID-19 Parenting and Work Study</h1>
                <Row><Col className='col-sm-6 font-mont'><p>Follow the link below to complete a 2-minute survey. Your answers
 will help us determine whether or not you are eligible to take part in the study. If you are not
 eligible, you will be informed of this while taking the survey. If you are eligible, you will be
