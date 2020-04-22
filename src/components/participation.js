@@ -1,5 +1,5 @@
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import pic from '../man-lookingdown.jpg';
+import pic from '../IMG_9550.jpg';
 import React, {Component, } from 'react';
 import {Row, Col, Image, Button} from 'react-bootstrap';
 class Participation extends Component {
@@ -15,16 +15,17 @@ asked to share your contact information with us, so that we can set up an interv
 can be scheduled whenever is most convenient for you, day or night. They can be completed
 by phone or online, using Zoom or Skype.</p>
 
-<p><text className='font-color-sec font-weight-bold'>All participants will be paid $25 as a thank you for taking part in the interviews</text>. Participants may choose whether
-to be paid by check or gift card, and these will be mailed to you within 4 weeks of completing
-the interview.
-<text className='font-color-sec font-weight-bold'> If both partners take part in the study, you will each receive $25.</text></p>
 
 <div><text className='text-danger font-weight-bold'>All information collected is private and confidential</text></div>
 <br />
 
-<Button size='lg' href='https://nd.qualtrics.com/jfe/form/SV_1zT002Tiaq6RNK5'className='font-mont btn-block participation-btn mb-6 font-weight-bold'>Eligibility Survey</Button>
-</Col><Col className='col-sm-6'><Image className='mt-4 fluid w-75' rounded src={pic}></Image></Col></Row>
+
+</Col><Col className='col-sm-6'><Image rounded fluid className='' src={pic}></Image></Col></Row>
+<Row><Col><p className='col-sm-6 font-mont'><text className='font-color-sec font-weight-bold'>All participants will be paid $25 as a thank you for taking part in the interviews</text>. Participants may choose whether
+to be paid by check or gift card, and these will be mailed to you within 4 weeks of completing
+the interview.
+<text className='font-color-sec font-weight-bold'> If both partners take part in the study, you will each receive $25.</text></p></Col></Row>
+<Button size='lg' href='https://nd.qualtrics.com/jfe/form/SV_1zT002Tiaq6RNK5'className=' col-sm-6 font-mont btn-block participation-btn mb-6 font-weight-bold'>Eligibility Survey</Button> 
             </div>
         );
     }
