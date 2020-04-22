@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a95f7a7697ac4b8df48075235d95bb2",
+    "revision": "e52b120a7a07582fdea532720dbf30cf",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "fffce25b0a089e7c2731",
+    "revision": "69dfc02b7037ebabb262",
     "url": "/static/css/main.b12211ef.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.bd2231c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fffce25b0a089e7c2731",
-    "url": "/static/js/main.ec25cdc7.chunk.js"
+    "revision": "69dfc02b7037ebabb262",
+    "url": "/static/js/main.226f780a.chunk.js"
   },
   {
     "revision": "2fefc2c946024fb666ad",
@@ -32,15 +32,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Abigail Ocobock.b5ada5f0.jpg"
   },
   {
+    "revision": "68385bdf1abbedc39f5cb5c31adfd46b",
+    "url": "/static/media/IMG_9550.68385bdf.jpg"
+  },
+  {
     "revision": "00cc3314d2294f6fc9bfb0ddec5ef785",
     "url": "/static/media/Lindsay.00cc3314.jpg"
   },
   {
     "revision": "54832e5754718d8d0408d3c8f121f3b4",
     "url": "/static/media/buzz-img.54832e57.png"
-  },
-  {
-    "revision": "7b6526e6d3bf9e7999181272385644e7",
-    "url": "/static/media/man-lookingdown.7b6526e6.jpg"
   }
 ]);
