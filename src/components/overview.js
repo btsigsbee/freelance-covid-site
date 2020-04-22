@@ -31,7 +31,8 @@ moment by sharing your story!
                     <Button  size='lg' href='https://nd.qualtrics.com/jfe/form/SV_1zT002Tiaq6RNK5'className='font-mont overview-btn btn-block text-dark font-weight-bold'>Take the Eligibility Survey!</Button>  
             </Col>
             </Row>
-            <Row><Col><text>If you have any questions or would like to contact the study, please e-mail the study at <a className='linkage' href='mailto:covidparentingwork@gmail.com'>covidparentingwork@gmail.com</a></text></Col></Row>
+            <br />
+            <Row><Col><text className='font-mont'>If you have any questions or would like to contact the study, please e-mail the study at <a className='linkage' href='mailto:covidparentingwork@gmail.com'>covidparentingwork@gmail.com</a></text></Col></Row>
         </div>
     );
 }
