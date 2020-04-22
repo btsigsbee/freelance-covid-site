@@ -20,10 +20,14 @@ class Eligibility extends Component {
 
                 <br/>
                 <div className='font-mont rounded-top mx-auto font-italic border-top border-bottom border-left border-right border-warning' > We encourage both partners to take part in the study, so we can hear the perspectives of both
-mom and dad, but this is not a requirement for taking part. If only one of you wishes to
+parents, but this is not a requirement for taking part. If only one of you wishes to
 participate that’s OK.
 It does not matter whether you are still currently at home due to COVID-19 or have returned to
-work but were previously working at home due to it.</div>
+work but were previously working at home due to it. If you are unsure whether you are eligible to participate, click on this link to complete our 2-
+minute eligibility survey.
+
+</div>
+
             </div>
         );
     }

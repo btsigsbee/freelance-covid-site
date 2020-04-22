@@ -83,3 +83,10 @@ body{
 .size-up{
   font-size: 2.5em !important;
 }
+
+.linkage{
+  text-decoration: none !important;
+  color: #f57515 !important;
+
+
+}
