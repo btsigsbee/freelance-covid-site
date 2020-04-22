@@ -14,7 +14,7 @@ render() {
             <Row>
                 <Col s={4}md={7}>
                     <Figure><Figure.Image fluid src={pic} rounded/>
-                    <Figure.Caption className='figure-caption'>By Agata Nowicka for <a href='https://www.buzzfeednews.com/article/annehelenpetersen/coronavirus-covid19-parents-kids-childcare'>Buzzfeed</a></Figure.Caption>
+                    <Figure.Caption className='figure-caption'>Image by Agata Nowicka for <a href='https://www.buzzfeednews.com/article/annehelenpetersen/coronavirus-covid19-parents-kids-childcare'>Buzzfeed</a></Figure.Caption>
                     </Figure>
                 </Col>
             <Col ><text className='font-mont text-wrap font-color-dark'> This study seeks to understand how parents manage parenting and working from home during the COVID-19 pandemic.
