@@ -19,11 +19,12 @@ render() {
                 </Col>
             <Col ><text className='font-mont text-wrap font-color-dark'> This study seeks to understand how parents manage parenting and working from home during the COVID-19 pandemic.
                 We are seeking to know how parents are coping with working from home while home-schooling their children. 
-                The study will contribute to knowledge about <text className='font-weight-bold font-color-sec'>work-life balance</text><text className='font-weight-bold font-color-sec'>, parenting</text>, and how couples cope with stress.
+                The study will contribute to knowledge about <text className='font-weight-bold font-color-sec'>work-life balance</text><text className='font-weight-bold font-color-sec'>, parenting</text>, and how couples cope with stress. We know how busy you are and really appreciate your
+participation.
                 </text> 
                 <br /><br />
                 <text className=' font-mont text-wrap font-color-dark'>We want to hear from both 
-                    <text className='font-weight-bold font-color-sec'> Moms and Dads</text>, and we want to hear the highs and lows of working and parenting from home! It doesn't matter what your experience has been, we want to hear from you! You can contribute to knowledge of this unique historical
+                    <text className='font-weight-bold font-color-sec'> Moms and Dads</text>, and we want to hear the <text className='font-weight-bold font-color-sec'>highs and lows</text> of working and parenting from home! It doesn't matter what your experience has been, we want to hear from you! You can contribute to knowledge of this unique historical
 moment by sharing your story!
                     </text>
                     <br /> 

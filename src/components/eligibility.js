@@ -13,7 +13,7 @@ class Eligibility extends Component {
                     <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action my-1">You have at least one child of elementary or middle-school age (as of the 2019-2020 school year).</li>
                     <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action my-1">You live with a partner, with whom you share parenting responsibilities.</li>
                     <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action my-1">You and your partner both have full time jobs.</li>
-                    <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action my-1">You and your partner both had to work from home during COVID-19.</li>
+                    <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action my-1">You and your partner both had to work from home during COVID-19 <text className='font-weight-bold '>at some point</text>.</li>
                     <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action my-1">You and your partner abided by “stay at home” or “shelter in place” orders, meaning that you only left the house for essentials (i.e. not to work) during COVID-19.</li>
                     <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action mt-1">You did not rely on outside help to care for your elementary or middle-school aged child/children during COVID-19 (i.e. no nannies, relatives, or babysitters).</li>
                 </ul>
@@ -23,7 +23,7 @@ class Eligibility extends Component {
 parents, but this is not a requirement for taking part. If only one of you wishes to
 participate that’s OK.</li><li>
 It does not matter whether you are still currently at home due to COVID-19 or have returned to
-work but were previously working at home due to it.</li> <li>If you are unsure whether you are eligible to participate, click on this <a className='linkage'href='https://nd.qualtrics.com/jfe/form/SV_1zT002Tiaq6RNK5'>link</a> to complete our 2-
+work but were previously working at home due to it.</li> <li className='font-weight-bold'>If you are unsure whether you are eligible to participate, click on this <a className='linkage'href='https://nd.qualtrics.com/jfe/form/SV_1zT002Tiaq6RNK5'>link</a> to complete our 2-
 minute eligibility survey.
 </li></ul>
 </div>
