@@ -1,5 +1,5 @@
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import pic from '../IMG_9550.jpg';
+import pic from '../COVID19.jpg';
 import React, {Component, } from 'react';
 import {Row, Col, Image, Button} from 'react-bootstrap';
 class Participation extends Component {
@@ -22,21 +22,19 @@ by phone or online, using Zoom or Skype.</text>
 to be paid by check or gift card, and these will be mailed to you within 4 weeks of completing
 the interview.
 <text className='font-color-sec font-weight-bold'> If both partners take part in the study, you will each receive $25. All information collected is private and confidential</text></text>
+<Button size='lg' href='https://nd.qualtrics.com/jfe/form/SV_1zT002Tiaq6RNK5'className=' col-sm-12 font-mont btn-block participation-btn mb-5 font-weight-bold'>Eligibility Survey</Button> 
+</Col><Col>
 
-<br/><br/><p className='font-mont'>Ideally, we want to interview people as soon as possible. But if you do not feel you are able to
-complete the interview while working and parenting from home, we understand! We can
-schedule an interview with you later in the year, when life has hopefully returned to “normal”!
-Just let us know!</p>
-<div></div></Col><Col><text className='font-mont'>During the interview, we will ask you a series of open-ended questions. There are no right or
+<h4 className='font-signika heading-col'>What to expect during the interview</h4><text className='font-mont'>During the interview, we will ask you a series of open-ended questions. There are no right or
 wrong answers; we are just interested in hearing your thoughts, feelings, and experiences
 regarding COVID-19 and how you have managed to balance work and parenting demands. The
-interviews are variable in length, but typically last between 60-90 minutes. Most people find the
+interviews are variable in length, but typically lasts about an hour. Most people find the
 interview enjoyable and interesting, and they appreciate the opportunity to reflect on their
-experiences. You do not have to ask any question you don’t want to and can stop the interview at
+experiences. You do not have to answer any question you don’t want to and can stop the interview at
 any time. All information you share with us will be kept strictly confidential. This means it won’t
 be shared with anyone beyond the research team – including your partner if they also decide to
 participate.</text></Col></Row>
-<Button size='lg' href='https://nd.qualtrics.com/jfe/form/SV_1zT002Tiaq6RNK5'className=' col-sm-6 font-mont btn-block participation-btn mb-5 font-weight-bold'>Eligibility Survey</Button> 
+
             </div>
         );
     }

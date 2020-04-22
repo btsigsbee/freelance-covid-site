@@ -1,6 +1,6 @@
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import React, {Component, Link} from 'react';
+import React, {Component} from 'react';
 import pic from '../buzz-img.png'
 import {Row, Col, Button, Figure} from 'react-bootstrap';
 
@@ -18,7 +18,7 @@ render() {
                     </Figure>
                 </Col>
             <Col ><text className='font-mont text-wrap font-color-dark'> This study seeks to understand how parents manage parenting and working from home during the COVID-19 pandemic.
-                We are seeking to know how parents are coping with working from home while home-schooling their children. 
+                We want to know how parents are coping with working from home while home-schooling their children. 
                 The study will contribute to knowledge about <text className='font-weight-bold font-color-sec'>work-life balance</text><text className='font-weight-bold font-color-sec'>, parenting</text>, and how couples cope with stress. We know how busy you are and really appreciate your
 participation.
                 </text> 
@@ -33,7 +33,7 @@ moment by sharing your story!
             </Col>
             </Row>
             <br />
-            <Row><Col><text className='font-mont'>If you have any questions or would like to contact the study, please e-mail the study at <a className='linkage' href='mailto:covidparentingwork@gmail.com'>covidparentingwork@gmail.com</a></text></Col></Row>
+            <Row><Col><text className='font-mont'>If you have any questions about the study, please contact us at: <a className='linkage' href='mailto:covidparentingwork@gmail.com'>covidparentingwork@gmail.com</a></text></Col></Row>
         </div>
     );
 }
