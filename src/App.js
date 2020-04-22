@@ -2,7 +2,7 @@ import React, {Component, Link} from 'react';
 
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Route, Switch, BrowserRouter} from 'react-router-dom';
+import {Route, Switch, BrowserRouter, HashRouter} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Researchers from './components/researches';
 import Eligibility from './components/eligibility';
@@ -12,7 +12,7 @@ import Overview from './components/overview';
 class App extends Component {
   render(){
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL} >
+    <HashRouter basename={process.env.PUBLIC_URL} >
     
 
     <div className=' bg-color'>
@@ -26,7 +26,7 @@ class App extends Component {
       
       
     </div>
-    </BrowserRouter>
+    </HashRouter>
     
     
     

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NavLink, } from 'react-router-dom';
+import {NavLink, HashRouter } from 'react-router-dom';
 import '../App.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from '../../node_modules/react-bootstrap';
