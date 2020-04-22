@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32ae6f32686947d5419e1b11c781b107",
+    "revision": "aee6e0955f39c68f14b247e9c5e4f2fd",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "5edc130fccd26a74f343",
-    "url": "/static/css/main.b12211ef.chunk.css"
+    "revision": "918da4774e2f2c3c2261",
+    "url": "/static/css/main.28e4fe98.chunk.css"
   },
   {
     "revision": "25156d09c7d50f3b015a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.bd2231c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5edc130fccd26a74f343",
-    "url": "/static/js/main.2a924f6f.chunk.js"
+    "revision": "918da4774e2f2c3c2261",
+    "url": "/static/js/main.f8eab0d5.chunk.js"
   },
   {
     "revision": "2fefc2c946024fb666ad",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Abigail Ocobock.b5ada5f0.jpg"
   },
   {
-    "revision": "68385bdf1abbedc39f5cb5c31adfd46b",
-    "url": "/static/media/IMG_9550.68385bdf.jpg"
+    "revision": "44f9bffbd42e3eabbd6da58e2e9004a9",
+    "url": "/static/media/COVID19.44f9bffb.jpg"
   },
   {
     "revision": "00cc3314d2294f6fc9bfb0ddec5ef785",
