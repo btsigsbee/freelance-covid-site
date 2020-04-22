@@ -79,3 +79,7 @@ body{
 .make-white:hover{
   color: #f57515 !important;
 }
+
+.size-up{
+  font-size: 2.5em !important;
+}
