@@ -10,7 +10,7 @@ class Overview extends Component{
 render() {
     return (
         <div className='container'>
-            <h1 className='font-signika border-thick pb-1 text-center font-color-sec h1'>COVID-19 Parenting and Work Study</h1>
+            <h1 className='font-signika border-thick pb-1 text-center font-color-sec display-3 size-up'>COVID-19 Parenting and Work Study</h1>
             <Row>
                 <Col s={4}md={7}>
                     <Figure><Figure.Image fluid src={pic} rounded/>
