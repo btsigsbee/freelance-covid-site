@@ -16,6 +16,7 @@ class Eligibility extends Component {
                     <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action my-1">You and your partner both had to work from home during COVID-19 <text className='font-weight-bold '>at some point</text>.</li>
                     <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action my-1">You and your partner abided by “stay at home” or “shelter in place” orders, meaning that you only left the house for essentials (i.e. not to work) during COVID-19.</li>
                     <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action mt-1">You did not rely on outside help to care for your elementary or middle-school aged child/children during COVID-19 (i.e. no nannies, relatives, or babysitters).</li>
+                    <li class="text-wrap list-group-item list-group-item-warning text-center list-group-item-action mt-1">You live in the United States of America.</li>
                 </ul>
 
                 <br/>
